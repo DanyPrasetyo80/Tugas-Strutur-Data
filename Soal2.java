@@ -10,7 +10,7 @@ public class Soal2 {
         number[4]=5;
         
 
-        
+        // soal 2 Menampilkan Elemen dengan Pemisah Koma
          for (int i = 0; i < number.length; i++) {
                 System.out.print(number[i]);  
                  if (i<4) {
@@ -19,5 +19,7 @@ public class Soal2 {
          }
     }
 }
-
+        //perulangan berjalan dari 0 hingga 4.
+        //Setiap elemen dicetak, dengan tambahan "," setelah elemen kecuali elemen terakhir.
+        //Output:1,2,3,4,5
      

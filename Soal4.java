@@ -9,8 +9,7 @@ public class Soal4 {
         number[3]=4;
         number[4]=5;
 
- 
-       
+        // soal4 Menampilkan Elemen di Indeks Genap Secara Terbalik
        for (int i = 4; i > -1; i--) {
            if (i%2==0) {
                 System.out.print(+number[i]); 
@@ -23,4 +22,7 @@ public class Soal4 {
 
     }
 }
+     //Perulangan dimulai dari indeks 4 hingga 0.
+     //Hanya indeks genap (4, 2, 0) yang ditampilkan dalam urutan terbalik: 5, 3, 1.
+     //Output:5,3,1
 
